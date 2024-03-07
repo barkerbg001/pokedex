@@ -25,3 +25,27 @@
     margin-top: 1rem;
     font-weight: bold;
 }
+
+.search-input {
+    width: 100%;
+    /* Full width */
+    max-width: 600px;
+    /* Maximum width */
+    padding: 10px;
+    margin: 1rem auto;
+    /* Center the input */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    /* This ensures the input doesn't inline with other elements */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .search-input {
+        margin: 10px;
+        /* Adjust margin for smaller screens */
+        padding: 8px;
+    }
+}
