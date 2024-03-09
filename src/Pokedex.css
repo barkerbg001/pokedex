@@ -44,7 +44,7 @@
 /* Responsive design */
 @media (max-width: 768px) {
     .search-input {
-        margin: 10px;
+        margin: 15px;
         /* Adjust margin for smaller screens */
         padding: 8px;
     }
