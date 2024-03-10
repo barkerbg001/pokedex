@@ -7,7 +7,7 @@ function Pokedex() {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    axios.get('https://pokeapi.co/api/v2/pokemon?limit=1000')
+    axios.get('https://pokeapi.co/api/v2/pokemon?limit=1302')
       .then(response => {
         const promises = response.data.results.map(pokemon => axios.get(pokemon.url));
         Promise.all(promises).then(results => {
