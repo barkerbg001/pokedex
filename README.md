@@ -1,31 +1,23 @@
-# Create React App
+# Pokedex React App
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This project is a simple Pokedex application built with React. It uses the [PokeAPI](https://pokeapi.co) to fetch information about Pokémon and display it in a searchable grid format.
 
-## Deploy Your Own
+## Features
 
-Deploy your own Create React App project with Vercel.
+- Fetch and display Pokémon data from the PokeAPI.
+- Search functionality to filter Pokémon by name.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+## Prerequisites
 
-_Live Example: https://create-react-template.vercel.app/_
+Before you begin, ensure you have met the following requirements:
+- You have installed Node.js and npm.
+- You have a basic understanding of React concepts.
 
-## Available Scripts
+## Installing Pokedex
 
-In the project directory, you can run:
+To install Pokedex, follow these steps:
 
-### `npm start`
-
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/barkerbg001/Pokedex
+   ```
