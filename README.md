@@ -10,12 +10,12 @@ This project is a simple Pokedex application built with React. It uses the [Poke
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-- You have installed Node.js and npm.
+- You have installed Bun (visit [Bun.sh](https://bun.sh) for installation instructions).
 - You have a basic understanding of React concepts.
 
 ## Installing Pokedex
 
-To install Pokedex, follow these steps:
+To install Pokedex using Bun, follow these steps:
 
 1. Clone the repository:
    ```bash
