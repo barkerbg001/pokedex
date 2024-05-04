@@ -21,3 +21,39 @@ To install Pokedex using Bun, follow these steps:
    ```bash
    git clone https://github.com/barkerbg001/Pokedex
    ```
+2. Navigate to the project directory:
+   ```bash
+   cd pokedex
+   ```
+3. Install the necessary packages using Bun:
+   ```bash
+   bun install
+   ```
+
+## Using Pokedex
+
+To use Pokedex, follow these steps:
+
+1. Start the development server with Bun:
+   ```bash
+   bun start
+   ```
+2. Open your browser and go to http://localhost:3000.
+
+You should see the Pokedex application running and be able to search for Pokémon using the search input.
+
+## Contributing to Pokedex
+
+To contribute to Pokedex, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
+
+Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+
+## License
+
+This project uses the following license: [MIT](https://opensource.org/licenses/MIT).
